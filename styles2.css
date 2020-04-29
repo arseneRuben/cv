@@ -8,6 +8,10 @@ body {
      display: flex;
        font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid
 }
 aside
 {
@@ -17,7 +21,7 @@ aside
 hr {
     margin-left:0px;
      width: 100%;
-     color : yellow ;
+   color : midnightblue;
 }
 .content{
     padding: 10px 40px 0px 40px;
@@ -37,9 +41,9 @@ aside article h2{
     overflow:hidden;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
-    border-radius:110px;
-    width:220px;
-    height:220px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
    margin: auto;
 }
 
@@ -47,6 +51,30 @@ h2, h3, h1 {
      text-transform: uppercase;
      text-align: center;
      
+}
+#contact li {
+    list-style-type: none;
+}
+
+i.fas {
+    font-size:46px; 
+    color:yellow;
+   justify-self: stretch;
+
+}
+section h2{
+    text-align: left;
+}
+
+li label {
+    padding-right: 100px;
+}
+section  li {
+    list-style: square;
+
+}
+li.encours {
+    list-style : url('images/bulle.png');
 }
 /*
 #bloc_page
