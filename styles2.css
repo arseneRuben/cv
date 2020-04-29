@@ -13,6 +13,16 @@ body {
   margin-right: auto;
   border: solid
 }
+h1 strong {
+    color: yellow;
+}
+h3 strong {
+     text-decoration: underline;
+      text-decoration-color: yellow;
+}
+h5 + h3  {
+    padding-left: 600px;
+}
 aside
 {
     background: url('images/fond-jaune.jpg');
