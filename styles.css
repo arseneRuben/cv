@@ -31,7 +31,8 @@ aside
 hr {
     margin-left:0px;
      width: 100%;
-   color : midnightblue;
+     height: 2px;
+     background : yellow;
 }
 .content{
     padding: 10px 40px 0px 40px;
@@ -49,12 +50,19 @@ aside article h2{
 }
 .roundedImage{
     overflow:hidden;
+    
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:100px;
     width:200px;
     height:200px;
-   margin: auto;
+   margin: 10px 20px 10px 20px;
+}
+#bloc_gauche{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 h2, h3, h1 {
@@ -126,3 +134,26 @@ li.encours {
         text-align: center;
     }
 }
+
+footer {
+    bottom: 12px;
+}
+
+section ul li{
+    text-align: right;
+    clear: both;
+}
+ul li label {
+    float: left;
+  }
+  ul li h5 {
+    text-align: center;
+  }
+
+  ul li p {
+    text-align: center;
+  }
+
+  div.webmastering  li{
+      text-align: left;
+  }
