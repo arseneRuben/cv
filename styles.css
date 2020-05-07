@@ -8,7 +8,7 @@ body {
      display: flex;
        font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
-  width: 70%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   border: solid
@@ -118,10 +118,7 @@ li.encours {
     list-style:  circle   url('images/fond_li_2.jpg');
     margin-left: 0em;
 }
-#image {
-    height: 18%;
-    margin-top: 0em;
-}
+
   .roundedImage{
       background:url('images/moumie.jpg') no-repeat -100px -100px ; 
     overflow:hidden;
@@ -130,8 +127,8 @@ li.encours {
     -moz-border-radius:50px;
     
     border-radius:50%;
-    width:15em;
-    height:15em;
+    width:18em;
+    height:18em;
    
    margin: auto;
 }
