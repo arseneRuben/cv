@@ -13,17 +13,21 @@ body {
   margin-right: auto;
   border: solid
 }
+table{
+    display: none;
+    background-color:#edb90e ;
+}
 h1 strong {
-    color: yellow;
+    color: #edb90e;
 }
 h3 strong {
      text-decoration: underline;
-      text-decoration-color: yellow;
+      text-decoration-color: #edb90e;
 }
 h5 + h3  {
     padding-left: 600px;
 }
-aside
+#bloc_gauche
 {
     background: url('images/fond-jaune.jpg');
     width: 30%;
@@ -32,32 +36,24 @@ hr {
     margin-left:0px;
      width: 100%;
      height: 2px;
-     background : yellow;
+     background : #edb90e;
 }
 .content{
     padding: 10px 40px 0px 40px;
 }
 
-aside + div {
+#bloc_gauche + div {
     background-color: white;
     width: 70%;
 }
-aside article h2{
+#bloc_gauche article h2, thead{
    
     background-color: black;
-    color : yellow ;
+    color : #edb90e ;
+  
     
 }
-.roundedImage{
-    overflow:hidden;
-    
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:100px;
-    width:200px;
-    height:200px;
-   margin: 10px 20px 10px 20px;
-}
+
 #bloc_gauche{
     display: flex;
     justify-content: center;
@@ -70,16 +66,22 @@ h2, h3, h1 {
      text-align: center;
      
 }
-#contact li {
+#contact li, table li {
     list-style-type: none;
+   
+    margin-bottom: 1em;
+      
+   
 }
 
 i.fas {
     font-size:46px; 
-    color:yellow;
+    color : yellow;
    justify-self: stretch;
 
 }
+
+
 section h2{
     text-align: left;
 }
@@ -88,53 +90,51 @@ li label {
     padding-right: 100px;
 }
 section  li {
-    list-style: square;
+    list-style:  circle   url('images/fond_li_3.jpg');
+   
 
+}
+
+section li label {
+    display : block;
+    text-align: left;
+}
+section li h5 {
+    display : block;
+    text-align: left;
+}
+section li h3 {
+    display : block;
+    text-align: left;
+    
+}
+section li p {
+    display : block;
+    
+    padding-left: 20%;
+    text-align: left;
 }
 li.encours {
-    list-style : url('images/bulle.png');
+    list-style:  circle   url('images/fond_li_2.jpg');
+    margin-left: 0em;
 }
-
-@media all and (max-width: 1024px)
-{
-    .roundedImage{
+#image {
+    height: 18%;
+    margin-top: 0em;
+}
+  .roundedImage{
+      background:url('images/moumie.jpg') no-repeat -100px -100px ; 
     overflow:hidden;
+    border:solid yellow ;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
-    border-radius:25%;
-    width:50%;
+    
+    border-radius:50%;
+    width:15em;
+    height:15em;
    
    margin: auto;
 }
-    section
-    {
-        flex-direction: column;
-    }
-
-    article, aside
-    {
-        width: auto;
-        margin-bottom: 15px;
-    }
-    
-    #fleche_bulle
-    {
-        display: none;
-    }
-    
-    #photo_zozor img
-    {
-        width: 110px;
-        float: right;
-        margin-left: 15px;
-    }
-    
-    aside p:last-child
-    {
-        text-align: center;
-    }
-}
-
 footer {
     bottom: 12px;
 }
@@ -157,3 +157,75 @@ ul li label {
   div.webmastering  li{
       text-align: left;
   }
+
+  #a_propos {
+      height: 40%;
+  }
+ 
+  div.recommandations  {
+   
+    display: flex;
+     
+        margin-left: 4em;
+        flex-direction: row;
+       float: left;
+
+  }
+
+  div.recommandations strong {
+    text-transform: uppercase;
+  }
+ 
+@media all and (max-width: 1200px)
+{
+  
+    td.roundedImage{
+     /*   background:url(images/Ruben-um-nyobe.jpg) no-repeat 0px 0px;  border:4px solid yellow ;*/
+     background:url('images/moumie.jpg') no-repeat -100px -100px ;
+     overflow:hidden;
+     border:solid yellow ;
+     -webkit-border-radius:50px;
+     -moz-border-radius:50px;
+     
+     border-radius:50%;
+     width:15em;
+     height:15em;
+    
+    margin: auto;
+    
+    }
+    
+    #bloc_gauche{
+        display:  none;
+        width: 0%;
+    }
+
+    #main{
+        width: 100%;
+    }
+
+    body
+    hr {
+        margin-left:0px;
+         width: 130%;
+         height: 2px;
+         background : #edb90e;
+    }
+    
+    table{
+        display: inline;
+        background-color:#edb90e ;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    thead {
+     text-align:center ;
+     text-transform: uppercase;
+    }
+  
+}
+
