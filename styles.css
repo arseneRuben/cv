@@ -36,7 +36,7 @@ hr {
     margin-left:0px;
      width: 100%;
      height: 2px;
-     background : #edb90e;
+     background : #edb90f;
 }
 .content{
     padding: 10px 40px 0px 40px;
@@ -49,7 +49,7 @@ hr {
 #bloc_gauche article h2, thead{
    
     background-color: black;
-    color : #edb90e ;
+    color : #edb90f ;
   
     
 }
