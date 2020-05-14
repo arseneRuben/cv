@@ -11,7 +11,7 @@ body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: none
+ 
 }
 table{
     display: none;
@@ -74,7 +74,7 @@ h2, h3, h1 {
 
 i.fas {
     font-size:46px; 
-    color : yellow;
+    color : #FFEE58;;
    justify-self: stretch;
 
 }
@@ -118,15 +118,15 @@ li.encours {
 }
 
   .roundedImage{
-      background:url('images/moumie.jpg') no-repeat -100px -100px ; 
+      background:url('images/Ruben.um.nyobe.jpg') no-repeat 0px 0px ; 
     overflow:hidden;
-    border:solid yellow ;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
+    border:solid #FFEE58; ;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
     
-    border-radius:60%;
-    width:20em;
-    height:20em;
+    border-radius:50%;
+    width:15em;
+    height:15em;
    
    margin: auto;
 }
@@ -188,11 +188,11 @@ ul li label {
   
     td.roundedImage{
      /*   background:url(images/Ruben-um-nyobe.jpg) no-repeat 0px 0px;  border:4px solid yellow ;*/
-     background:url('images/moumie.jpg') no-repeat  ;
+     background:url('images/Ruben.um.nyobe.jpg') no-repeat  ;
      overflow:hidden;
-     border:none;
+    
      border-radius:0%;
-     color: yellow;
+     color: #FFEE58;
      background-size: 100% 100%;
     
     margin: auto;
